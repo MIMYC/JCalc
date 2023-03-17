@@ -37,4 +37,29 @@ public class jcalc
         return ar;
     }
 
+    //Linear equation
+    public static double solve(double a, double b, double result)
+    {
+        double x;
+        result-=b;
+        result/=a;
+        x = result;
+        return(x);
+    }
+
+    //Quadratic equation
+    public static double solve1(double a, double b, double c, double result)
+    {
+        double x;
+        c-=result;
+        x = (b*(-1) + Math.sqrt((b*b) - 4*a*c))/2*a;
+        return(x);
+    }
+    public static double solve2(double a, double b, double c, double result)
+    {
+        double x;
+        c-=result;
+        x = (b*(-1) - Math.sqrt((b*b) - 4*a*c))/2*a;
+        return(x);
+    }
 }
