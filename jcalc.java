@@ -1,9 +1,6 @@
 package JCalc;
 public class jcalc
 {
-
-    //Pi
-    public static final double pi = 22/7.0;
     
     //Factorial
     public static int factorial(int x)
@@ -17,7 +14,7 @@ public class jcalc
     }
 
     //area of rectangle
-    public static double arRect(double l, double b)
+    public static double arRec(double l, double b)
     {
         return l*b;
     }
@@ -25,18 +22,18 @@ public class jcalc
     //area of circle
     public static double arCircle(double r)
     {
-        return pi*r*r;
+        return Math.PI*r*r;
     }
 
     //area of triangle
     public static double arTri(double a, double b, double c)
     {
-        double ar;
         double s = a+b+c/2.0;
-        ar = Math.sqrt((s-a)*(s-b)*(s-c)*(s));
+        double ar = Math.sqrt((s-a)*(s-b)*(s-c)*(s));
         return ar;
     }
 
+<<<<<<< HEAD
     //Linear equation
     public static double solve(double a, double b, double result)
     {
@@ -63,3 +60,6 @@ public class jcalc
         return(x);
     }
 }
+=======
+}
+>>>>>>> 7d4bfdecb163d48351c7c82cf271c38b606771a5
