@@ -33,7 +33,6 @@ public class jcalc
         return ar;
     }
 
-<<<<<<< HEAD
     //Linear equation
     public static double solve(double a, double b, double result)
     {
@@ -60,6 +59,3 @@ public class jcalc
         return(x);
     }
 }
-=======
-}
->>>>>>> 7d4bfdecb163d48351c7c82cf271c38b606771a5
